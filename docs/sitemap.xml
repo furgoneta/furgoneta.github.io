@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://furgonetasolidaria.org/about/</loc>
+<loc>https://furgonetasolidaria.org/colabora/apadrina/</loc>
 </url>
 <url>
-<loc>https://furgonetasolidaria.org/donativos/</loc>
+<loc>https://furgonetasolidaria.org/colabora/donativos/</loc>
+</url>
+<url>
+<loc>https://furgonetasolidaria.org/colabora/</loc>
+</url>
+<url>
+<loc>https://furgonetasolidaria.org/historia/</loc>
 </url>
 <url>
 <loc>https://furgonetasolidaria.org/</loc>
+</url>
+<url>
+<loc>https://furgonetasolidaria.org/proyectos/desarrollo/</loc>
+</url>
+<url>
+<loc>https://furgonetasolidaria.org/proyectos/educacion/</loc>
+</url>
+<url>
+<loc>https://furgonetasolidaria.org/proyectos/saneamiento/</loc>
+</url>
+<url>
+<loc>https://furgonetasolidaria.org/proyectos/salud/</loc>
 </url>
 <url>
 <loc>https://furgonetasolidaria.org/proyectos/</loc>
