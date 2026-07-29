@@ -1107,6 +1107,9 @@ $(document).ready(function() {
 	$('#cookie-accept').on('click', function() {
 		localStorage.setItem('cookies_accepted', 'true');
 	});
+	$('#cookie-reject').on('click', function() {
+		localStorage.setItem('cookies_accepted', 'false');
+	});
 	$('#modal-03').on('shown.bs.modal', function() {
 		enableContactForm();
 	})
