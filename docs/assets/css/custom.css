@@ -1,0 +1,54 @@
+/* Overrides propios del sitio (cargado después de style.css) */
+
+/* Barra de menú con fondo crema #fff6d5 */
+
+/* Barra original (visible al cargar, encima del hero) */
+.navbar.transparent:not(.banner--clone) {
+    background: #fff6d5 !important;
+}
+
+/* Barra clonada que aparece fija al hacer scroll */
+.banner--stick,
+.banner--stick.bg-white {
+    background: #fff6d5 !important;
+}
+
+/* Pie de página con fondo crema #fff6d5 y texto negro */
+footer.dark-wrapper {
+    background: #fff6d5 !important;
+}
+footer.inverse-text,
+footer.inverse-text p,
+footer.inverse-text a,
+footer.inverse-text address,
+footer.inverse-text .widget-title,
+footer.inverse-text h1,
+footer.inverse-text h2,
+footer.inverse-text h3,
+footer.inverse-text h4,
+footer.inverse-text h5,
+footer.inverse-text h6,
+footer.inverse-text .social a,
+footer.inverse-text .social a i {
+    color: #000 !important;
+}
+
+/* Logo del pie de página reducido a 250px de ancho (alto proporcional) */
+footer.dark-wrapper .widget img {
+    width: 250px;
+    height: auto;
+    max-width: 100%;
+}
+
+/* Carruseles de fotos: la altura nunca supera 800px y la imagen se centra,
+   para que cualquier foto (incluidas las verticales) quepa en un monitor sin
+   tener que desplazar el scroll. Sobrescribe el width:100% del tema. */
+.post-slider .owl-carousel .owl-item figure {
+    text-align: center;
+}
+.post-slider .owl-carousel .owl-item img {
+    width: auto;
+    max-width: 100%;
+    max-height: 800px;
+    margin: 0 auto;
+}
